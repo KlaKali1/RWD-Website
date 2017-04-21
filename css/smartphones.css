@@ -70,5 +70,7 @@
     .second p {
         font-size: 80%;
     }
-
+    img {
+        max-width: 100%;
+    }
 }
