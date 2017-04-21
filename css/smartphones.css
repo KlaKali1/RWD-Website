@@ -1,0 +1,74 @@
+/* Smartphones (portrait) */
+@media screen and (max-width: 760px) {
+    h2 {
+        font-size: 150%;
+    }
+    h3 {
+        font-size: 125%;
+    }
+    p {
+        font-size: 100%;
+        line-height: 200%;
+    }
+    #logo {
+        margin: 15px 0 20px -25px;
+        background: url(img/RD_mobile.png) no-repeat center;
+    }
+    header {
+        position: absolute;
+    }
+    #menu-icon {
+        display: inline-block;
+    }
+    nav ul, nav:active ul {
+        display: none;
+        width: 50%;
+        z-index: 1000;
+        position: absolute;
+        right: 20px;
+        top: 60px;
+        padding: 20px;
+        border: 1px solid #FFF;
+        background-color: #6991AC;
+    }
+    nav:hover ul {
+        display: block;
+    }
+    nav li {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+    .banner {
+        padding-top: 86px;
+    }
+    .one-fourth {
+        width: 100%;
+    }
+    .one-fourth i {
+        padding: 4% 0 1% 0;
+        font-size: 350%;
+    }
+    article {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+    }
+    .hand-mobile {
+        display: none;
+    }
+    .one-third {
+        width: 100%;
+    }
+    .social i {
+        font-size: 100%;
+    }
+    .second {
+        width: 100%;
+    }
+    .second p {
+        font-size: 80%;
+    }
+
+}
